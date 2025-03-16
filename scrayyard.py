@@ -50,5 +50,4 @@ def main():
 
         utime.sleep(0.35)
 
-# Run the program
 main()
