@@ -13,8 +13,8 @@ echo_pin = Pin(14, Pin.IN, Pin.PULL_DOWN)
 
 buzzer_pin = Pin(16, Pin.OUT)
 buzzer = PWM(buzzer_pin)
-buzzer.freq(1000)  # Set PWM frequency for the buzzer (e.g., 2000 Hz)
-buzzer.duty_u16(0)  # Start with the buzzer off
+buzzer.freq(1000)
+buzzer.duty_u16(0)
 
 def measure_distance():
     """Measure distance using HC-SR04 ultrasonic sensor."""
